@@ -10,6 +10,6 @@ export const CODE_SNIPPETS = {
     
     python: `def greet(name):\n\tprint("Hello, " + name + "!")\n\ngreet("Alex")\n`,
     java: `public class HelloWorld {\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println("Hello World");\n\t}\n}\n`,
-    cpp: `#include <iostream>\n\nint main() {\n\tstd::cout << "hello world";\n\treturn 0;\n}\n`
+    cpp: `#include <iostream>\nusing namespace std;\nint main() {\ncout << "hello world";\n\treturn 0;\n}\n`
    
   };
